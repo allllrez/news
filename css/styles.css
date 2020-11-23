@@ -5,19 +5,23 @@
     color: #333333;
 }
 
-.clear-fix {
+.clear-fix 
+{
     clear: both;
 }
 
-.position-relativ {
+.position-relativ 
+{
     position: relative;
 }
 
-.position-absolute {
+.position-absolute
+{
     position: absolute;
 }
 
-.title {
+.title 
+{
     position: relative;
     font-size: 18px;
     padding-bottom: 30px;
@@ -26,7 +30,8 @@
 
 }
 
-.title:after {
+.title:after 
+{
     content: '';
     position: absolute;
     bottom: 0;
@@ -36,7 +41,8 @@
     background: #ccc;
 }
 
-.title:before {
+.title:before 
+{
     content: '';
     position: absolute;
     bottom: 0;
@@ -47,7 +53,8 @@
     z-index: 1;
 }
 
-.article-title {
+.article-title 
+{
     padding-top: 20px;
 }
 
